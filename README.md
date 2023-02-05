@@ -1,5 +1,4 @@
 # Sistema IoT con Vue.js, MongoDB, Node.js y EMQX
-
 Este es un sistema IoT completo y escalable que permite a los usuarios monitorear y controlar dispositivos conectados a través de Internet. Utiliza Vue.js en el frontend para proporcionar una interfaz de usuario amigable, MongoDB para almacenar los datos de los dispositivos, Node.js como el servidor y EMQX para la gestión de mensajería y el intercambio de datos entre los dispositivos y el servidor.
 
 ## Características
@@ -15,16 +14,25 @@ Este es un sistema IoT completo y escalable que permite a los usuarios monitorea
 - EMQX versión 5 o superior
 - Un navegador web moderno (Chrome, Firefox, Safari, etc.)
 
-## Instalación
-1. Clona este repositorio en tu computadora
-git clone https://github.com/<nombre de usuario>/iot-system.git
-2. Instala las dependencias
+## Project setup
+```
 npm install
-3. Arranca el servidor
-npm install
-4. Accede a la aplicación en tu navegador web en `http://localhost:8080`
-## Documentación
-Para obtener más información sobre cómo utilizar este sistema IoT, consulta la [documentación en línea](https:).
+```
 
-## Contribución
-Si deseas contribuir a este proyecto, por favor revisa la [guía de contribución](https://github.com/<nombre de usuario>/iot-system/blob/master/CONTRIBUTING.md).
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
